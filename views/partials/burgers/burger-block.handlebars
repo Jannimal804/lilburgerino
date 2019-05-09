@@ -1,9 +1,10 @@
 <li>
 	{{burger_name}}
 
-	<button class="change-burger" data-id="{{id}}" data-newBurger="{{sleep}}">
-		{{#if devoured}}You ate me!{{else}}Eat me!{{/if}}
+	<button class="btn waves-effect waves-light change-burger" data-id="{{id}}" data-newBurger="{{sleep}}">
+		{{#if devoured}}You ate me! {{else}} Eat me!{{/if}}
 	</button>
 
-	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+	<button class="btn waves-effect waves-light delete-burger" data-id="{{this.id}}">Delete me!</button>
 </li>
+

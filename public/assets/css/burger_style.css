@@ -1,11 +1,13 @@
+
 li {
     padding: 5px;
     margin: 5px;
     background: #faebd7;
   }
   
-  .label {
+  .label, p, li, button {
     font-weight: bold;
+    font-family: 'Baloo Bhai', cursive;
   }
   
   .create-update-form {
@@ -17,3 +19,12 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  body {
+    background-image: url("../img/pusheen.png");
+    background-repeat: repeat;
+    font-family: 'Baloo Bhai', cursive;
+
+  }
+
+  
