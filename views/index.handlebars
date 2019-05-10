@@ -2,18 +2,19 @@
   <div class="col s6">
     <div class="card-panel amber darken-1">
       <h4 class="teal-text text-darken-4 flow-text">Not Yet Eaten:</h4>
-    </div>
     <ul class="collection">
       {{#each burgers}} {{#unless devoured}} {{> burgers/burger-block devoured=false}} {{/unless}} {{/each}}
     </ul>
   </div>
+  </div>
   <div class="col s6">
     <div class="card-panel amber darken-1">
       <h4 class="teal-text text-darken-4 flow-text">Eaten:</h4>
-    </div>
+   
     <ul class="collection">
-      {{#each burgers}} {{#if devoured}} {{> burgers/burger-block devoured=true}} {{/if}} {{/each}}
+      {{#each burgers}} {{#if devoured}}{{> burgers/burger-block devoured=true}} {{/if}} {{/each}}
     </ul>
+     </div>
   </div>
 </div>
 
